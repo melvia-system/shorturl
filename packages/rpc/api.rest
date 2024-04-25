@@ -1,0 +1,10 @@
+POST http://localhost:3000/links
+content-type: application/json
+
+{
+  "originalUrl": "https://google.com"
+}
+
+###
+
+GET http://localhost:3000/SUMMG7IXo
