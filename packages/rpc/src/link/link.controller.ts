@@ -34,7 +34,7 @@ export class LinkController {
   @Get(':id')
   async findOne(@Param('id') id: string) {
     try {
-      const link = await this.linkService.findOne(+id);
+      const link = await this.linkService.findOneByShortUrl(id);
       return {
         ok: true,
         message: 'Link found',

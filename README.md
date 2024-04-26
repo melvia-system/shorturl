@@ -1,15 +1,18 @@
-# shorturl
+# 🔗 shorturl
+Shorturl is a simple URL shortener service that allows you to shorten your long URL into a short one.
 
-To install dependencies:
+<!-- image -->
+![shorturl](./assets/preview.png)
 
-```bash
-bun install
-```
 
-To run:
+## Features
+- Generate short URL from your long URL
+- [Soon] Advanced options
+  - Custom short URL
+  - Password protection
 
-```bash
-bun run index.ts
-```
-
-This project was created using `bun init` in bun v1.1.4. [Bun](https://bun.sh) is a fast all-in-one JavaScript runtime.
+## Tech Stack
+- Frontend: [Svelte](https://svelte.dev/)
+- Backend: [Nestjs](https://nestjs.com/)
+- Database: [PostgreSQL](https://www.postgresql.org)
+- Development Tools: [Docker](https://www.docker.com)
